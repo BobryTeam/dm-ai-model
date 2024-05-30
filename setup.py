@@ -9,7 +9,7 @@ setup(
         'pandas',
         'sklearn',
         'joblib',
-        'git+https://github.com/BobryTeam/trend-data.git@pip-deps',
+        'trend_data @ git+https://github.com/BobryTeam/trend-data.git@pip-deps',
     ],
     author='BobryTeam',
     author_email='sinntexxx@gmail.com',
