@@ -11,7 +11,7 @@ class DecisionModuleModel:
         x = pd.DataFrame({
             'cpu': [trend.cpu_load],
             'memory': [trend.mem_load],
-            'traffic': [trend.net_load)],
+            'traffic': [trend.net_load],
         })
         prediction = self.model.predict(x)
         return prediction

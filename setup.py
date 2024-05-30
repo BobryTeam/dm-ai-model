@@ -9,10 +9,11 @@ setup(
         'pandas',
         'sklearn',
         'joblib',
+        'git+https://github.com/BobryTeam/trend-data.git@pip-deps',
     ],
     author='BobryTeam',
     author_email='sinntexxx@gmail.com',
-    description='Metrics data structure',
+    description='Decision Module AI model',
     url='https://github.com/BobryTeam/dm-ai-model',
     classifiers=[
         'Programming Language :: Python :: 3',
