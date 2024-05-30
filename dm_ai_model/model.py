@@ -10,7 +10,7 @@ class DecisionModuleModel:
     def analyze(self, trend: TrendData):
         x = pd.DataFrame({
             'cpu': [trend.cpu_load],
-            'memory': [trend.mem_load],
+            'memory': [trend.ram_load],
             'traffic': [trend.net_load],
         })
         prediction = self.model.predict(x)
