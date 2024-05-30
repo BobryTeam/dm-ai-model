@@ -14,5 +14,4 @@ class DecisionModuleModel:
             'traffic': [trend.net_load],
         })
         prediction = self.model.predict(x)
-        return prediction
-
+        return prediction[0]
