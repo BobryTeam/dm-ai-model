@@ -7,7 +7,7 @@ setup(
     install_requires=[
         'numpy',
         'pandas',
-        'sklearn',
+        'scikit-learn',
         'joblib',
         'trend_data @ git+https://github.com/BobryTeam/trend-data.git@pip-deps',
     ],
