@@ -4,6 +4,7 @@ setup(
     name='dm_ai_model',
     version='0.1.0',
     packages=find_packages(),
+    package_data={'': ['model.joblib']},
     install_requires=[
         'numpy',
         'pandas',
